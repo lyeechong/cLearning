@@ -2,6 +2,10 @@ Getting how to Git.
 ==
 ###Due Thur 19th at 11:59pm.
 
+##Creating a github account
+
+Go to github.com and create an account. Let me know once you've done this so I can add you as a contributer.
+
 ##Getting the repo
 
 You'll be using this repo:
