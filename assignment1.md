@@ -6,7 +6,7 @@ Getting how to Git.
 
 Go to github.com and create an account. Let me know once you've done this so I can add you as a contributer.
 
-##Getting the repo
+##Getting started
 
 You'll be using this repo:
 https://github.com/lyeechong/cLearningTurnin
@@ -14,13 +14,31 @@ https://github.com/lyeechong/cLearningTurnin
 Navigate to https://github.com/lyeechong/cLearningTurnin in your browser and notice that it's pretty empty.
 
 To get started, fire up Ubuntu on your VMWare Player.
+
+##Basic unix commands
+
+<code>Ctrl + Shift + T</code> opens a new terminal
+
+<code>ls</code> is used to list things in the current directory
+
+<code>pwd</code> is used to see where you are (your path)
+
+<code>cd \<directory\></code> is used to change directory
+<code>cd ..</code> is used to go up a directory
+
+<code>mkdir \<directory name\></code> is used to make a directory with the name specified
+
+Maybe make a new directory for your project, then when you're ready, keep following the instructions below!
+
 Run this command:
 
 <code>
 git clone https://github.com/lyeechong/cLearningTurnin.git
 </code>
 
-This will clone the repo where you specify it.
+This will clone the repo where you specify it (it'll look like a new directory).
+
+cd into the local repo you just created!
 
 Then you check how things are with
 
@@ -57,7 +75,7 @@ and notice git has realized you have a new file. You need to tell git that you w
 
 To do so, you run:
 <code>
-git add <filename>
+git add \<filename\>
 </code>
 
 so in your case, it would be
