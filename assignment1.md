@@ -1,6 +1,9 @@
 Getting how to Git.
-Due Thur 19th at 11:59pm.
 ==
+###Due Thur 19th at 11:59pm.
+
+##Getting the repo
+
 You'll be using this repo:
 https://github.com/lyeechong/cLearningTurnin
 
@@ -23,6 +26,8 @@ git status
 
 git status is a useful command to see what isn't committed, what files are new, modified, etc.
 
+##Creating a file in the repo
+
 Create a new file in your local git repo called "test.md"
 
 Hints/tips:
@@ -44,6 +49,8 @@ git status
 
 and notice git has realized you have a new file. You need to tell git that you want to keep track of this new file.
 
+##Adding the file to git
+
 To do so, you run:
 <code>
 git add <filename>
@@ -63,6 +70,8 @@ Which, in this example, adds everything which is in this directory or in a subdi
 
 Now you need to commit your changes.
 
+##Committing your changes
+
 Think of committing like making a milestone. The great thing about git is that you can always go back in time to one of these milestones if you mess up or accidentally delete/change something.
 
 To commit, run
@@ -81,6 +90,9 @@ git status
 again and see that you're now ready to push! (Since the new file has been added and you have committed)
 
 It's time to push.
+
+##Pushing your changes online
+
 Pushing means you're uploading your local changes (on your computer) to the remote repository (which in this case, is on Github). This saves your work online.
 
 to push, run
@@ -103,6 +115,8 @@ To https://github.com/lyeechong/cLearning.git
 of course, your username is different, the repo address is different and the commit number (the strange hex number) would be different too.
 
 Now to see that it worked!
+
+##Seeing the fruits of your labor
 
 Check 
 https://github.com/lyeechong/cLearningTurnin
